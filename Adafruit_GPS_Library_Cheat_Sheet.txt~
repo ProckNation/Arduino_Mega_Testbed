@@ -1,0 +1,24 @@
+
+
+hour, minute, seconds, year, month, day;
+milliseconds;
+
+  // Floating point latitude and longitude value in degrees.
+latitude, longitude;
+
+  // Fixed point latitude and longitude value with degrees stored in units of 1/100000 degrees,
+  // and minutes stored in units of 1/100000 degrees.  See pull #13 for more details:
+  //   https://github.com/adafruit/Adafruit-GPS-Library/pull/13
+latitude_fixed, longitude_fixed;
+
+latitudeDegrees, longitudeDegrees;
+
+geoidheight, altitude;
+
+speed, angle, magvariation, HDOP;
+
+lat, lon, mag;
+
+fix;
+
+fixquality, satellites;
